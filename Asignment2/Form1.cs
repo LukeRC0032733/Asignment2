@@ -31,7 +31,7 @@ namespace Asignment2
             }
             catch
             {
-                MessageBox.Show("Enter a Number ");
+                MessageBox.Show("Enter a Number "); 
             }
         }
 
