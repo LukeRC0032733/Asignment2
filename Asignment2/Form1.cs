@@ -19,6 +19,7 @@ namespace Asignment2
 
         private void button1_Click(object sender, EventArgs e)
         {
+        // calculates resistance for 2 resistors in series  
             try
             {
                 double A = double.Parse(textBox1.Text);
@@ -35,7 +36,7 @@ namespace Asignment2
         private void button2_Click(object sender, EventArgs e)
         {
             try
-            {
+            { // calculates resistance for 2 resistors in parallel
 
                 double A = double.Parse(textBox6.Text);
                 double B = double.Parse(textBox7.Text);
@@ -51,7 +52,7 @@ namespace Asignment2
         private void button3_Click(object sender, EventArgs e)
         {
             try
-            {
+            {  // calculates resistance for 3 resistors in series  
                 double A = double.Parse(textBox1.Text);
                 double B = double.Parse(textBox2.Text);
                 double C = double.Parse(textBox3.Text);
@@ -67,7 +68,7 @@ namespace Asignment2
         private void button4_Click(object sender, EventArgs e)
         {
             try
-            {
+            {  // calculates resistance for 4 resistors in series  
                 double A = double.Parse(textBox1.Text);
                 double B = double.Parse(textBox2.Text);
                 double C = double.Parse(textBox3.Text);
@@ -84,7 +85,7 @@ namespace Asignment2
         private void button5_Click(object sender, EventArgs e)
         {
             try
-            {
+            {  // calculates resistance for 5 resistors in series  
                 double A = double.Parse(textBox1.Text);
                 double B = double.Parse(textBox2.Text);
                 double C = double.Parse(textBox3.Text);
@@ -102,7 +103,7 @@ namespace Asignment2
         private void button6_Click(object sender, EventArgs e)
         {
             try
-            {
+            { // calculates resistance for 3 resistors in parallel
 
                 double A = double.Parse(textBox6.Text);
                 double B = double.Parse(textBox7.Text);
@@ -120,7 +121,7 @@ namespace Asignment2
         private void button7_Click(object sender, EventArgs e)
         {
             try
-            {
+            { // calculates resistance for 4 resistors in parallel
 
                 double A = double.Parse(textBox6.Text);
                 double B = double.Parse(textBox7.Text);
@@ -138,7 +139,7 @@ namespace Asignment2
         private void button8_Click(object sender, EventArgs e)
         {
             try
-            {
+            { // calculates resistance for 5 resistors in parallel
 
                 double A = double.Parse(textBox6.Text);
                 double B = double.Parse(textBox7.Text);
